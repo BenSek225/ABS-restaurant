@@ -23,12 +23,7 @@ function App() {
 
 // Nouveau code simplifié avec une seule page
 function App() {
-  return (
-    <div>
-      <HomePage />
-      {/* <Commande/> */}
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;
